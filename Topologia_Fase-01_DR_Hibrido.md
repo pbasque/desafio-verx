@@ -1,4 +1,6 @@
-## Fase 1
+# Fase 1 - Continuidade Operacional com DR Híbrido
+
+![Topologia Fase 01](Topologia_Fase-01_DR_Hibrido.jpg)
 
 - Implementar conectividade entre ambiente On-Premises e Azure utilizando VPN com BGP para failover automático.
 - Criar ambiente de Disaster Recovery utilizando Azure Site Recovery (ASR) para replicar workloads críticos (APP, DB, File Server).
