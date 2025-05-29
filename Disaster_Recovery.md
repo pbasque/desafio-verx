@@ -12,5 +12,3 @@ O ambiente de DR utiliza Azure Site Recovery para replicação de workloads crí
 
 - RTO (Recovery Time Objective): até 30 minutos
 - RPO (Recovery Point Objective): até 15 minutos
-
-As ativações são automatizadas via Azure Function e testadas trimestralmente.

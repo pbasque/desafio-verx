@@ -26,3 +26,5 @@ O projeto de modernização tem como foco inicial a aplicação de Fluxo de Caix
 2. Web App se conecta ao Azure SQL para dados ou Azure Files para documentos.
 3. Monitoramento contínuo coleta métricas e envia para Datadog.
 4. Conexão VPN garante integração com recursos on-premises (AD, cache local, etc).
+
+[Next Page](Topologia_Fase-01_DR_Hibrido.md)

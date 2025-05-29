@@ -7,3 +7,5 @@
 - Automatizar ativação do ambiente DR via Azure Functions (IaC).
 
 ![Topologia Fase 01](Topologia_Fase-01_DR_Hibrido.jpg)
+
+[Next Page](Topologia_Fase-02_WebApp.md)
