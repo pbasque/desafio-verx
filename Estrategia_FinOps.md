@@ -16,3 +16,5 @@ A estratégia de governança considera os seguintes pilares:
 - Políticas de shutdown automático de recursos fora do horário comercial.
 - Auto Scale configurado para reduzir instâncias ociosas.
 - Infraestrutura criada com Terraform, permitindo revisão e auditoria de consumo.
+
+[<< Previous](Justificativas.md)  

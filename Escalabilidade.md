@@ -11,3 +11,5 @@ Ambos os serviços rodam em Web Apps independentes com base de dados desacoplada
 
 - O serviço de **Lançamentos** continua funcional mesmo com falha total do **Consolidado**.
 - Cada serviço tem escalabilidade e disponibilidade separada.
+
+[<< Previous Main](README.md) 

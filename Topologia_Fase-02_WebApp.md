@@ -24,4 +24,4 @@
 ![Topologia Fase 02](Topologia_Fase-02_Web-App.jpg)
 
 
-[<< Previous](Topologia_Fase-01_DR_Hibrido.md) - [Next Page >>](Escalabilidade.md)
+[<< Previous](Topologia_Fase-01_DR_Hibrido.md)   -   [Next Page >>](Escalabilidade.md)

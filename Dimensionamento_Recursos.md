@@ -23,3 +23,5 @@ Para garantir desempenho e escalabilidade adequada, os serviços foram dimension
 - **Azure Files + Sync**:
   - Storage Account GPv2, com redundancy ZRS
   - File Sync habilitado com cache local
+  
+[<< Previous](Escalabilidade.md)   -   [Next Page >>](Disaster_Recovery.md)

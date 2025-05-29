@@ -12,3 +12,5 @@ Datadog será usado para observabilidade do tráfego de rede e conexões de serv
 - Throughput de interfaces e saturação de banda
 
 Alertas serão criados para violações de thresholds e anomalias no tráfego.
+
+[<< Previous](Disaster_Recovery.md)   -   [Next Page >>](Justificativas.md)

@@ -33,3 +33,5 @@
 - Microsserviços com alta complexidade ou dependência de APIs em cadeia: containers orquestrados em AKS.
 
 Planeja-se refactor dos serviços atuais para AKS a médio/longo prazo.
+
+[<< Previous](Monitoramento_Observabilidade.md)   -   [Next Page >>](Estrategia_FinOps.md)
