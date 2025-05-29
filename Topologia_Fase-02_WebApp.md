@@ -1,7 +1,5 @@
 # Fases 2 a 5 - Modernização de WebApp e Serviços Gerenciados
 
-![Topologia Fase 02](Topologia_Fase-02_Web-App.jpg)
-
 ## Fase 2
 - Migrar o SQL Server para Azure SQL Managed Instance, visando escalabilidade, alta disponibilidade e manutenção simplificada.
 - Reconfigurar backups gradativamente para refletir o novo destino.
@@ -21,3 +19,6 @@
 - Após estabilização das fases anteriores, iniciar refactory das aplicações para arquitetura de microsserviços baseados em containers.
 - Utilizar Azure Kubernetes Service (AKS) como plataforma de orquestração.
 - Aplicações devem ser desenvolvidas visando escalabilidade, governança e observabilidade.
+
+
+![Topologia Fase 02](Topologia_Fase-02_Web-App.jpg)
