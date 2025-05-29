@@ -1,13 +1,25 @@
-## Escalabilidade sob Demanda e Alta Disponibilidade
+## Dimensionamento de Recursos
 
-Para suportar picos de acesso durante períodos promocionais ou eventos sazonais, a arquitetura utilizará:
-- Auto Scale em Web Apps com base em métricas de CPU, memória e requisições por segundo.
-- App Service Plan Premium com instâncias adicionais pré-configuradas.
-- Balanceamento de carga via Application Gateway com suporte a múltiplas zonas de disponibilidade.
+Para garantir desempenho e escalabilidade adequada, os serviços foram dimensionados da seguinte forma:
 
-## Independência dos Serviços
+- **Serviço de Lançamentos**:
+  - CPU: 2 vCPUs
+  - Memória: 4 GB
+  - Tipo: App Service Plan Premium v3 (P1v3)
+  - Escala: Horizontal com 1 a 3 instâncias via Auto Scale
 
-Ambos os serviços rodam em Web Apps independentes com base de dados desacopladas.
+- **Serviço de Consolidados**:
+  - CPU: 4 vCPUs
+  - Memória: 8 GB
+  - Tipo: App Service Plan Premium v3 (P2v3)
+  - Escala: Horizontal com 1 a 5 instâncias
 
-- O serviço de **Lançamentos** continua funcional mesmo com falha total do **Consolidado**.
-- Cada serviço tem escalabilidade e disponibilidade separada.
+- **Azure SQL Managed Instance**:
+  - Tier: General Purpose
+  - vCores: 8
+  - Memória: 32 GB
+  - Storage inicial: 512 GB, escalável
+
+- **Azure Files + Sync**:
+  - Storage Account GPv2, com redundancy ZRS
+  - File Sync habilitado com cache local
